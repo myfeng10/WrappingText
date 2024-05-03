@@ -1,4 +1,4 @@
-import { Micro_5 } from 'next/font/google';
+
 import React from 'react';
 interface PathData {
     path: string;
