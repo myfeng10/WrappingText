@@ -30,21 +30,5 @@ def find_polygon_from_image(image_path):
     print("Polygon Points:", polygon[:, 0, :])
     return polygon[:, 0, :]
 
-
-def calculate_edge_properties(polygon):
-    edges = []
-    N = len(polygon)
-    for i in range(N):
-        p1 = polygon[i]
-        p2 = polygon[(i + 1) % N]  # Wrap-around at the last point
-        edge_vector = p2 - p1
-        edge_length = np.linalg.norm(edge_vector)
-        edge_normal = np.array([-edge_vector[1], edge_vector[0]])  # Perpendicular to the edge
-        edge_normal = edge_normal / np.linalg.norm(edge_normal)  # Normalize
-        edges.append((edge_length, edge_normal))
-    return edges
-# Replace 'path_to_image.png' with your image file path
 polygon_points = find_polygon_from_image('image.png')
 
-edges = calculate_edge_properties(polygon_points)
-# print(edges)

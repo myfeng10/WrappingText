@@ -123,6 +123,7 @@ const FinalComponent: React.FC = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
     <svg width="800" height="600">
+      
     <defs>
           <mask id="polygonMask">
             <rect x="0" y="0" width="100%" height="100%" fill="white"/>

@@ -122,6 +122,17 @@ const FinalComponent: React.FC = () => {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+     <h1 style={{
+        position: 'absolute',
+        zIndex: 1,
+        color: 'black',
+        background: "white",
+        top: '15%',  // Move the top of the element to the center
+        left: '43%', // Move the left of the element to the center
+        transform: 'translate(-50%, -50%)' // Offset the element by its own dimensions
+    }}>
+        Hi I am Michelle
+    </h1>
     <svg width="800" height="600">
     <defs>
           <mask id="polygonMask">
@@ -129,6 +140,7 @@ const FinalComponent: React.FC = () => {
             <polygon points={polygon.map(p => `${p[0]},${p[1]}`).join(' ')} fill="black"/>
           </mask>
         </defs>
+        
       <image href={imageUrl} x="-60" y="90" height="400px" width="600px"/>
       <path id={pathId} d={pathData} fill="none" stroke="none" />
       <text style={{ letterSpacing: '4px' }}>
