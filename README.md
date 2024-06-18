@@ -56,12 +56,16 @@
   - Implement in Next.js using `opencv4nodejs` to avoid setting up a Python backend
 
 - **SVG**: Create a visual display that includes a path shaped based on the polygon, place the image at the center, and add text that follows the path of the polygon.
+  
+![Example Image](./images/svg1.png)
+![Example Image](./images/svg2.png)
 
 - **Partition the Space**: Outside the polygon, add lines between them
-
+![Example Image](./images/polygon1.png)
 - **Add Text**: Along each line
-
+![Example Image](./images/polygon2.png)
 - **Add the Label**: Change font design
+ ![Example Image](./images/polygon3.png)
 
 ## Development Plan
 
