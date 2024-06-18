@@ -1,6 +1,19 @@
+# Introduction
+
+The overall plan for this project is laid out, but this repository only provides the key service: using the demo picture to reach the desired format. Currently, the image is hard-coded, but with slight modifications, it could be applied to different images. That's future work. Below is an overview of the project requirements and the development plan.
+
+The goal of this project is to code out the image as the way we want, this is the demo and this is how it actually turns out:
+
+![Example Image](./images/goal.png)
+![Example Image](./images/polygon3.png)
+
+
 # Technical Projection Requirements
 
+
 ## Overall
+
+![Example Image](./images/goal.png)
 
 - **Frontend**: Next.js with TypeScript
 - **Backend**: Next.js API routes
