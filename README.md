@@ -13,7 +13,6 @@ The goal of this project is to code out the image as the way we want, this is th
 
 ## Overall
 
-![Example Image](./images/goal.png)
 
 - **Frontend**: Next.js with TypeScript
 - **Backend**: Next.js API routes
